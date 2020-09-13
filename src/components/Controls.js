@@ -18,5 +18,4 @@ let Controls = ({ changeVolume, onOff, changeSound, name }) => {
         </section>
     )
 }
-
 export default Controls;

@@ -16,5 +16,4 @@ let DrumPad = ({ handlerKeys, handlerClick, sounds }) => {
         </article>
     )
 }
-
 export default DrumPad;
