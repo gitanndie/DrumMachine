@@ -11,8 +11,8 @@
   border-radius: 40px;
   background: rgba(10, 10, 10, 0.582);
   align-self: center;
-  width: 70%;
-  height: 80%;
+  width: 100%;
+  height: 50%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -26,8 +26,8 @@
   align-self: center;
 }
 .drum-pad{
-width: 25%;
-margin: 5px;
+width: 30%;
+margin: 10px;
 }
 
 .display-class{
