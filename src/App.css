@@ -1,0 +1,76 @@
+.container-all{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://i.pinimg.com/originals/23/58/b1/2358b125c4e3572762339e16f6449852.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.container-drum{
+  border-radius: 40px;
+  background: rgba(10, 10, 10, 0.582);
+  align-self: center;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.drum-pad-all{
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-self: center;
+}
+.drum-pad{
+width: 25%;
+margin: 5px;
+}
+
+.display-class{
+border: solid #07ff13 2px;
+width: 100%;
+height: 50px;
+border-radius: 10px;
+text-align: center;
+padding-top: 10px;
+}
+
+#display{
+  color: #0fff07;
+}
+
+.controls{
+width: 35%;
+height: 80%;
+align-self: center;
+display: flex;
+flex-flow: column wrap;
+justify-content: space-between;
+align-content: center;
+}
+
+.power-btn{
+  width: 100%;
+  font-weight: 700;
+}
+
+.volume{
+  width: 100%;
+}
+
+footer{
+  color:rgb(77, 74, 74);
+  font-size: small;
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-drum{
+    width: 100%;
+    height: 100%;
+  }
+}
